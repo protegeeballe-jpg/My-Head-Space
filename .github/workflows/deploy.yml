@@ -25,7 +25,7 @@ jobs:
           node-version: 20
           cache: npm
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Build site
         run: npx astro build
       - name: Upload artifact
